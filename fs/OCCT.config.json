@@ -1,0 +1,278 @@
+{
+  "Version": 1100,
+  "WindowTop": 50,
+  "WindowLeft": 50,
+  "WindowWidth": 1525,
+  "WindowHeight": 900,
+  "IsWindowMaximized": false,
+  "IsMonitoringExpanded": true,
+  "EnabledTemperatureSensors": [
+    {
+      "DeviceName": "AMD Radeon Vega",
+      "Name": "GPU Temperature",
+      "LocationIndex": 0
+    }
+  ],
+  "EnabledVoltageSensors": [
+    {
+      "DeviceName": "AMD Ryzen 5 5600G",
+      "Name": "Core 0 VID",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "HP 8906 (SiS 950/ITE IT8705F)",
+      "Name": "+5V",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "HP 8906 (SiS 950/ITE IT8705F)",
+      "Name": "+12V",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "HP 8906 (SiS 950/ITE IT8705F)",
+      "Name": "-12V",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "HP 8906 (SiS 950/ITE IT8705F)",
+      "Name": "-5V",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "HP 8906 (SiS 950/ITE IT8705F)",
+      "Name": "5VSB",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "AMD Radeon Vega",
+      "Name": "GPU Core Voltage (VDDCR_GFX)",
+      "LocationIndex": 0
+    }
+  ],
+  "EnabledFanSensors": [
+    {
+      "DeviceName": "HP 8906 (SiS 950/ITE IT8705F)",
+      "Name": "Chassis",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "HP 8906 (SiS 950/ITE IT8705F)",
+      "Name": "CPU",
+      "LocationIndex": 0
+    }
+  ],
+  "EnabledPowerSensors": [
+    {
+      "DeviceName": "AMD Ryzen 5 5600G",
+      "Name": "CPU Package Power",
+      "LocationIndex": 0
+    }
+  ],
+  "EnabledCurrentSensors": [
+    {
+      "DeviceName": "AMD Ryzen 5 5600G",
+      "Name": "CPU TDC",
+      "LocationIndex": 0
+    }
+  ],
+  "EnabledFrequencySensors": [
+    {
+      "DeviceName": "AMD Ryzen 5 5600G",
+      "Name": "Core 0 Clock (perf #5)",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "AMD Radeon Vega",
+      "Name": "GPU Clock",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "AMD Radeon Vega",
+      "Name": "GPU Memory Clock",
+      "LocationIndex": 0
+    }
+  ],
+  "EnabledUsageSensors": [
+    {
+      "DeviceName": "System",
+      "Name": "Physical Memory Load",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "AMD Ryzen 5 5600G",
+      "Name": "Total CPU Usage",
+      "LocationIndex": 0
+    }
+  ],
+  "EnabledOtherSensors": [
+    {
+      "DeviceName": "Windows Hardware Errors (WHEA)",
+      "Name": "Total Errors",
+      "LocationIndex": 0
+    }
+  ],
+  "MonitoringUpdateInterval": 2,
+  "MonitoringUpdateIntervalUnit": "Seconds",
+  "GraphUpdateInterval": 2,
+  "GraphUpdateIntervalUnit": "Seconds",
+  "TemperatureAlertValue": 90,
+  "IsTemperatureAlertValueEnabled": false,
+  "Language": "Auto",
+  "MonitoringTableSize": "*",
+  "MonitoringGraphSize": "*",
+  "Monitoring": true,
+  "TestingGraphSize": "*",
+  "TestingTableSize": "*",
+  "SelectedMonitoringIndex": 0,
+  "SelectedArea": 0,
+  "CheckForUpdates": "Stable",
+  "SaveReportPath": "C:\\Users\\김대율\\Documents",
+  "SaveScreenshotPath": "C:\\Users\\김대율\\Documents",
+  "MotherboardName": "HP 8906",
+  "SelectedComponentUsage": "Radeon RX 470",
+  "TestingAreaDisplayMode": "TableAndGraph",
+  "TestingAreaSensorClass": "Temperature",
+  "TestingAreaTableConfig": {
+    "SensorGroup": "DeviceType",
+    "SortDescription": {
+      "Direction": 0,
+      "IsSealed": false
+    },
+    "EnabledSensorFilter": "All",
+    "DeviceTypeFilters": [
+      "Cpu",
+      "Gpu",
+      "Motherboard",
+      "Storage",
+      "Memory",
+      "Other"
+    ]
+  },
+  "MonitoringAreaSensorClass": "All",
+  "MonitoringAreaDisplayMode": "TableAndGraph",
+  "MonitoringAreaTableConfig": {
+    "SensorGroup": "DeviceType",
+    "SortDescription": {
+      "Direction": 0,
+      "IsSealed": false
+    },
+    "EnabledSensorFilter": "All",
+    "DeviceTypeFilters": [
+      "Cpu",
+      "Gpu",
+      "Motherboard",
+      "Storage",
+      "Memory",
+      "Other"
+    ]
+  },
+  "RenderMode": 1,
+  "StopOnError": false,
+  "StopOnWheaError": false,
+  "SelectedBenchmark": "CpuBenchmark",
+  "MonitoringEcEnable": true,
+  "MonitoringSmBusEnable": true,
+  "MonitoringGpuI2CEnable": false,
+  "MonitoringDriveScanEnable": false,
+  "MonitoringCsmiSasEnable": false,
+  "MonitoringImeEnable": false,
+  "MonitoringCorsairAsetekEnable": false,
+  "MonitoringDebugModeEnable": false,
+  "AllowOcbaseUpload": true,
+  "Skin": 0,
+  "LicenseExpirationWarningLastDisplay": 999,
+  "CustomSchedule": {
+    "ScheduleType": "Custom",
+    "StabilityCertificateType": "System",
+    "Periods": [
+      {
+        "Duration": "01:00:00",
+        "Version": "800",
+        "IsInfinite": false,
+        "TestType": "CpuLinpack",
+        "CpuOcctConfig": {
+          "DataSet": "Large",
+          "OcctInstructionSet": "Auto",
+          "LoadType": "Variable",
+          "Mode": "Normal",
+          "Threads": "Auto",
+          "FixedThreadCount": 12,
+          "StartAtCycle": 1,
+          "AdvancedThreadConfig": {
+            "ThreadSettingsThreads": "Physical",
+            "CycleActiveCore": "Disabled",
+            "SwapActiveCore": "Disabled",
+            "CycleActiveCoreInterval": 3,
+            "CycleActiveCoreIntervalUnit": "Seconds",
+            "SwapActiveCoreInterval": 5,
+            "SwapActiveCoreIntervalUnit": "Seconds",
+            "CoreActive": [
+              0
+            ]
+          }
+        },
+        "CpuLinpackConfig": {
+          "Version": "v2019",
+          "Threads": "PhysicalAndVirtual",
+          "Memory": 2048
+        },
+        "MemoryConfig": {
+          "MemoryInPercent": 80,
+          "MemoryMemUnit": "Percent",
+          "Threads": "Auto",
+          "FixedThreadCount": 12,
+          "InstructionSet": "Auto"
+        },
+        "Gpu3dConfig": {
+          "Mode": "ErrorDetection",
+          "UsageLimit": 100,
+          "ShaderComplexity": 3,
+          "GpuIndexes": [
+            0
+          ],
+          "TestAllGpus": false
+        },
+        "GpuUnrealConfig": {
+          "IntensityType": "Variable",
+          "SteadyIntensityType": "Light",
+          "SteadyLoad": 30,
+          "VariableIntensityIncreaseIntervalTimeSpan": "00:00:30",
+          "VariableIntensityIncreaseStep": 4,
+          "VariableMinIntensity": 10,
+          "VariableMaxIntensity": 60,
+          "SwitchInterval": 500,
+          "SwitchFirstIntensity": 20,
+          "SwitchSecondIntensity": 80,
+          "GpuIndexes": [],
+          "TestAllGpus": false
+        },
+        "VramConfig": {
+          "GpuIndex": 0,
+          "MemoryInMiB": 0,
+          "MemoryInPercent": 80,
+          "MemoryMemUnit": "Percent"
+        },
+        "PowerSupplyConfig": {
+          "CpuOcctInstructionSet": "Auto",
+          "GpuIndexes": []
+        },
+        "CpuBenchmarkConfig": {
+          "Run": 0,
+          "Threads": "Single",
+          "InstructionSet": "Sse"
+        },
+        "MemoryBenchmarkConfig": {
+          "Run": 0,
+          "BenchmarkType": "Read"
+        }
+      }
+    ]
+  },
+  "StabilityCertificateSchedule": {
+    "ScheduleType": "StabilityCertificate",
+    "StabilityCertificateType": "Cpu",
+    "StabilityCertificateConfigs": [],
+    "Periods": []
+  }
+}
